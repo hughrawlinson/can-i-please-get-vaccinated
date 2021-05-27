@@ -9,9 +9,11 @@ This is a Node JS script that will check the RIVM coronavirus vaccination progra
 1. Run the script on the computer that you spend most of your time at.
 2. When the script launches you'll get a notification confirming that the script is running*.
 3. The script will look at the RIVM website every 30 seconds and notify you if they've published a new article. You should go [here](https://www.rivm.nl/en/covid-19-vaccination/news) to read the article.
-4. If your birth year has been called, congratulations, you're a real adult human person (maybe, I don't know), it's time for you to apply to get your vaccination! You can do that [on coronatest.nl](https://coronatest.nl/).
+4. The new articles seem to be published between 11am and 1pm daily, so make sure you're looking at your computer at that time of day!**
+5. If your birth year has been called, congratulations, you're a real adult human person (maybe, I don't know), it's time for you to apply to get your vaccination! You can do that [on coronatest.nl](https://coronatest.nl/).
 
-* If you don't get the notification, I suspect the issue is that your system doesn't support notifications via node-notifier. If you'd like to submit a patch to fix this program for your system, go ahead!
+\* If you don't get the notification, I suspect the issue is that your system doesn't support notifications via node-notifier. If you'd like to submit a patch to fix this program for your system, go ahead!
+\** Are you not someone who sits at a computer for the work hours? Might I suggest hacking this script to text your phone using Twilio or Vonage, or email you using Sendgrid (or something else)? If you do this, let me know 🙂.
 
 ## Disclaimer
 
