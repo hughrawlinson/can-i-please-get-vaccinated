@@ -13,6 +13,7 @@ This is a Node JS script that will check the RIVM coronavirus vaccination progra
 5. If your birth year has been called, congratulations, you're a real adult human person (maybe, I don't know), it's time for you to apply to get your vaccination! You can do that [on coronatest.nl](https://coronatest.nl/).
 
 \* If you don't get the notification, I suspect the issue is that your system doesn't support notifications via node-notifier. If you'd like to submit a patch to fix this program for your system, go ahead!
+
 \** Are you not someone who sits at a computer for the work hours? Might I suggest hacking this script to text your phone using Twilio or Vonage, or email you using Sendgrid (or something else)? If you do this, let me know 🙂.
 
 ## Disclaimer
