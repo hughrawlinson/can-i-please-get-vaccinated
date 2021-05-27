@@ -15,7 +15,7 @@ async function check() {
   const $ = cheerio.load(responseText);
 
   const firstPageArticleHeadings = [];
-  $("article.singlecard a h3").each((index, heading) => {
+  $("article.news a h3").each((index, heading) => {
     // @ts-ignore
     firstPageArticleHeadings.push(heading.children[0]?.data);
   });
