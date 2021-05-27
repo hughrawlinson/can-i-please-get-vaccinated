@@ -26,16 +26,19 @@ async function check() {
     console.log(`The articles at first load were:\n${firstLoad.join("\n")}`);
     console.log(`Now checking every 30s...`);
   } else {
+    let newArticles = false;
     firstPageArticleHeadings.forEach((article) => {
       if (!firstLoad.includes(article)) {
+        newArticles = true;
         console.log("Found a new article!!");
         console.log(article);
         notifier.notify({ title: "Found a new article!", message: article });
         firstLoad = firstPageArticleHeadings;
-      } else {
-        console.log("No new articles. Checking again in 30s.");
       }
     });
+    if (!newArticles) {
+      console.log("No new articles. Checking again in 30s.");
+    }
   }
   setTimeout(check, 1000 * CHECK_RATE_SECONDS);
 }
