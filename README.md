@@ -1,5 +1,7 @@
 # VNN: Vaccination News Notifier (for the Netherlands)
 
+__Update: Thankfully, this is no longer necessary. Anyone staying in the Netherlands for longer than 1 month (whether living or visiting here) can visit an RIVM vaccination center with or without an appointment from coronatest.nl and if eligible get the next vaccine in their course.__
+
 I live in the Netherlands, which has had a ........... different approach to coronavirus vaccination than ........... other countries. But now, it looks like they're doing some vaccinations! Now that that's happening, I want one. But how will I know when it's my turn to ask for an appointment? By checking the government website manually every 30 seconds until people with my birth year are announced as eligible for the vaccine? PAH I say!
 
 This is a Node JS script that will check the RIVM coronavirus vaccination program news website, and notify me on my desktop as soon as new news is published.
